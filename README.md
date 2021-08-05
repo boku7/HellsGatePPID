@@ -24,6 +24,8 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
   + [Windows Process Injection for Red-Blue Teams - Module 2: NTQuerySystemInformation](https://www.pentesteracademy.com/video?id=1634)
 + Reenz0h from @SEKTOR7net
   + Most of the C techniques I use are from Reenz0h's awesome courses and blogs 
+  + Best classes for malware development out there.
+  + Creator of the halos gate technique. His work was the motivation for this work.
   + https://blog.sektor7.net/#!res/2021/halosgate.md 
   + https://institute.sektor7.net/
 + @smelly__vx & @am0nsec ( Creators/Publishers of the Hells Gate technique )
