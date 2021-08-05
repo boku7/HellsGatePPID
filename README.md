@@ -6,6 +6,17 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
 + The systemcalls are dynamically discovered at runtime using the HellsGate method.
 + This method avoids EDR userland hooks.
 
+### Things I am aware of / To Do List
++ Obfuscate the strings for that are used for resolving the addresses of the NTDLL symbols
+  + Or use hashing
++ Need to fix some bugs when switching from debug to release mode in visual studio's
++ Need to figure out how to properly overload the call to HellDescent()
++ Clean up the assembly functions, they are messy and could be better
++ Do better checking for the process image name so it doesnt conflict with other processes named explorer*
++ Better error handling
++ Make this into a cobalt strike beacon object file
++ Build on this project for process injection / syscall PS 
+
 ### Credits / References
 + Pavel Yosifovich (@zodiacon)
   + I learned how to correctly call NtQuerySystemInformation from Pavel's class on pentester academy. Full credits to Pavel for this. (BTW Pavel is an awesome teacher and I 100% recommend).
