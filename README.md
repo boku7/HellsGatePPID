@@ -16,7 +16,8 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
 + Better error handling (Some better handling 05/08/21)
 + Make this into a cobalt strike beacon object file
 + Build on this project for process injection / syscall PS 
-+ Use halos gate to handle EDR hooks.
++ ~Use halos gate to handle EDR hooks.~ (05/08/21)
+  + See the updated HalosGate version of this project at: https://github.com/boku7/AsmHalosGate 
 
 ### Credits / References
 + Pavel Yosifovich (@zodiacon)
