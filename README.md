@@ -6,7 +6,7 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
 + The systemcalls are dynamically discovered at runtime using the HellsGate method.
 + This method avoids EDR userland hooks.
 
-### Things I am aware of / To Do List
+### To Do List
 + Obfuscate the strings for that are used for resolving the addresses of the NTDLL symbols
   + Or use hashing
 + Need to fix some bugs when switching from debug to release mode in visual studio's
