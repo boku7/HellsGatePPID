@@ -4,7 +4,7 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
 ![](/images/customHellsGatePoC.png)
 + In this screenshot the "NtQuerySystemInformation" & "NtAllocateVirtualMemory" NTDLL.DLL API's are called by direct windows system calls.
 + The systemcalls are dynamically discovered at runtime using the HellsGate method.
-+ This method avoids EDR userland hooks.
++ Going to build on this and use a custom halos gate method to handle/evade EDR userland hooks.
 
 ### To Do List
 + Obfuscate the strings for that are used for resolving the addresses of the NTDLL symbols
@@ -16,6 +16,7 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
 + Better error handling
 + Make this into a cobalt strike beacon object file
 + Build on this project for process injection / syscall PS 
++ Use halos gate to handle EDR hooks.
 
 ### Credits / References
 + Pavel Yosifovich (@zodiacon)
