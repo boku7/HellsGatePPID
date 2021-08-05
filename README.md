@@ -9,11 +9,11 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
 ### To Do List
 + Obfuscate the strings for that are used for resolving the addresses of the NTDLL symbols
   + Or use hashing
-+ Need to fix some bugs when switching from debug to release mode in visual studio's
-+ Need to figure out how to properly overload the call to HellDescent()
-+ Clean up the assembly functions, they are messy and could be better
-+ Do better checking for the process image name so it doesnt conflict with other processes named explorer*
-+ Better error handling
++ ~Need to fix some bugs when switching from debug to release mode in visual studio's~ (Fixed 05/08/21)
++ ~Need to figure out how to properly overload the call to HellDescent()~ (Fixed 05/08/21)
++ Clean up the assembly functions, they are messy and could be better (Some cleanup 05/08/21)
++ ~Do better checking for the process image name so it doesnt conflict with other processes named explorer~ (Fixed 05/08/21)
++ Better error handling (Some better handling 05/08/21)
 + Make this into a cobalt strike beacon object file
 + Build on this project for process injection / syscall PS 
 + Use halos gate to handle EDR hooks.
