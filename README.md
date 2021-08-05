@@ -18,3 +18,4 @@ Assembly HellGate implementation that directly calls Windows System Calls and di
   + Could not have made my implementation of HellsGate without them :)
   + Awesome work on this method, really enjoyed working through it myself. Thank you!
   + https://github.com/am0nsec/HellsGate 
+  + Link to the Hell's Gate paper: https://vxug.fakedoma.in/papers/VXUG/Exclusive/HellsGate.pdf
